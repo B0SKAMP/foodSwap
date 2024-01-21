@@ -6,7 +6,6 @@ MY_KJ_REQ <- 10000
 
 foodSwap_env <- new.env(parent=emptyenv())
 
-#' load targets.txt from minChangeLP and load ndns_file
 #' 
 #' @export
 init <- function(targets_file, nutrientbank_file, intake_ndns_file, nutrientbank_field_names) {
