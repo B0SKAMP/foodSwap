@@ -1,0 +1,21 @@
+Package: foodSwap
+Title: Code for LP food swap demos.
+Version: 0.0.0.9000
+Authors@R: 
+    person("Bram", "Boskamp", , "bram@boska.mp", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: initial version contains the code separated out of my shiny apps.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: 
+    lpSolveAPI,
+	dplyr,
+    minChangeLP (>= 1.0)
+Remotes: 
+    git::git@gitlab1.bioss.ac.uk:bboskamp/minchangelp.git
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+
